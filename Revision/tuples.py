@@ -1,0 +1,15 @@
+fruits = "apple","mango","banana"
+places_kms = (10,20,30,40)
+print("tuple1 method:",fruits,type(fruits),tuple(enumerate(fruits)))
+tup1,tup2 = (10,20,30,40),("a","b","""C""")
+list1 = list(tup1)
+print("converting tuple into list",list1)
+print(tup1,tup2)
+alist = [1,2,3,3,5]
+print("conversting list into tuple:",tuple(alist))
+print("slice method in tuple",fruits[2])
+print("range slice method in tuple:",fruits[0:2])
+print("zero based indexing",places_kms[0::2])
+print("min method in tuple:",min(fruits))
+print("max method in tuple:",max(places_kms))
+print("Concatenation method:",fruits + places_kms)
